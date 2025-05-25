@@ -114,7 +114,7 @@ This project is open-source and available under the [MIT License](LICENSE).
 
 ## 📍 Authors
 
-* Built by \[@athiyamanpro] using OpenAI, LangGraph, Streamlit & FastAPI
+* Built by \@athiyamanpro using OpenAI, LangGraph, Streamlit & FastAPI
 
 ---
 
