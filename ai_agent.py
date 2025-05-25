@@ -19,7 +19,6 @@ search_tool=TavilySearchResults(max_results=2)
 from langgraph.prebuilt import create_react_agent
 from langchain_core.messages.ai import AIMessage
 import inspect
-
 from langchain_core.messages import SystemMessage
 
 system_prompt = SystemMessage(content="Act as an AI chatbot who is smart and friendly")
@@ -41,5 +40,3 @@ def get_response_from_ai_agent(llm_id, query, allow_search, system_prompt, provi
     messages=response.get("messages")
     ai_messages=[message.content for message in messages if isinstance(message, AIMessage)]
     return ai_messages[-1]
-
-print(inspect.signature(create_react_agent))
