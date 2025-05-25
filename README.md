@@ -1,4 +1,4 @@
-# Personal Agentic Query System
+# Personal Agentic AI Query System
 
 A **Production-Ready GenAI Application** built with modern AI and web technologies to create a personalized agentic chatbot experience.
 
